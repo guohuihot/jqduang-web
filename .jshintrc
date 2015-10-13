@@ -1,0 +1,16 @@
+{
+  "bitwise": true, //禁用位运算
+  "browser": true,
+  "curly": true, //if 后面的代码块需要用｛｝括起来
+  "eqeqeq": true, //用"==="代替"=="
+  "esnext": true,
+  "latedef": true, //变量定义前禁止使用
+  "noarg": true,
+  "node": true,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "globals": {
+    "angular": false
+  }
+}
