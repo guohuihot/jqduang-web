@@ -22,6 +22,13 @@ angular.module('jqduangWebApp')
       'Karma'
     ];
   })
+  .controller('JqvalidateCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  })
   .controller('JqmodalCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
@@ -29,7 +36,28 @@ angular.module('jqduangWebApp')
       'Karma'
     ];
   })
-  .controller('JqvalidateCtrl', function () {
+  .controller('JqgalleryCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  })
+  .controller('JqfixedCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  })
+  .controller('JqscrollspyCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  })
+  .controller('JqsimulationCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

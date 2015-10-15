@@ -41,6 +41,26 @@ angular
         controller: 'JqmodalCtrl',
         controllerAs: 'jqmodal'
       })
+      .when('/jqgallery', {
+        templateUrl: 'views/jqgallery.html',
+        controller: 'JqgalleryCtrl',
+        controllerAs: 'jqgallery'
+      })
+      .when('/jqfixed', {
+        templateUrl: 'views/jqfixed.html',
+        controller: 'JqfixedCtrl',
+        controllerAs: 'jqfixed'
+      })
+      .when('/jqscrollspy', {
+        templateUrl: 'views/jqscrollspy.html',
+        controller: 'JqscrollspyCtrl',
+        controllerAs: 'jqscrollspy'
+      })
+      .when('/jqsimulation', {
+        templateUrl: 'views/jqsimulation.html',
+        controller: 'JqsimulationCtrl',
+        controllerAs: 'jqsimulation'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
